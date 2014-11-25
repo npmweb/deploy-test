@@ -8,7 +8,7 @@
 
 <h2>Service Times</h2>
 <ul>
-    <?php foreach( array('9:00 a.m.', '11:00 a.m.', '1:00 p.m') as $time ): ?>
+    <?php foreach( array('9:00 am', '11:00 am', '1:00 pm') as $time ): ?>
         <li><?php echo $time ?></li>
     <?php endforeach ?>
 </ul>
